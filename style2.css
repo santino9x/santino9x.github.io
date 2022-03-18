@@ -1,0 +1,102 @@
+*   {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body    {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.all    {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+}
+.info   {
+    width: 600px;
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-color: #956fe5;
+    border-width: 10px;
+    padding: 10px 30px;
+}
+.h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 17px;
+    color: #111111;
+    font-weight: 100;
+    max-width: 100%;
+}
+.h2 {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.all-input  {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+.input-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.input-email    {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-message  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#name   {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+}
+#email  {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+}
+#message    {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    height: 150px;
+}
+.accept {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.terms  {
+    color: #8052e0;
+    text-decoration: none;
+}
+.submit {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.nut-submit {
+    display: none; !important
+}
+.link   {
+    background-color: #8052e0;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+
