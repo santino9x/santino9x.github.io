@@ -1,0 +1,108 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body    {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E7E4EB;
+}
+
+.spct   {
+
+    height: 700px;
+}
+.header {
+    margin: 20px 300px;
+    padding: 50px;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+.quaylai    {
+    padding-left: 50px;
+
+}
+.tentruyen  {
+    padding-left: 50px;
+    font-weight: 1000;
+}
+.nutquaylai {
+    display: none; !important
+}
+.anhdep {
+
+}
+.link   {
+    background-color: #8052e0;
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.thongtint  {
+    margin: 20px 300px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+.daumuc {
+    padding: 15px;
+    float: right;
+    text-align: left;
+
+}
+li  {
+    display: flex;
+    flex-direction: row;
+}
+.chiso2 li  {
+    padding: 7px;
+    width: 500px;
+}
+.cot1   {
+    float: left;
+    width: 250px;
+}
+.cot2   {
+    float: right;
+    width: 250px;
+}
+.gioithieut {
+    margin: 10px 300px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.gioit {
+    color: #f18121;
+}
+.doanv  {
+    padding: 10px;
+    line-height: 1.5;
+}
+#footer {
+    margin: 50px 300px;
+    margin-top: 100px;
+    padding: 30px 10px;
+    background-color: #ffffff;
+    border-top: 5px solid #f18121;
+    max-height: 1000px;
+    height: 180px;
+    line-height: 1.5;
+}
+.cot1f  {
+    float: left;
+    width: 500px;
+
+}
+.cot2f  {
+    float: right;
+    width: 500px;
+
+}
+.theinput   {
+    padding-bottom: 5px;
+}
+
