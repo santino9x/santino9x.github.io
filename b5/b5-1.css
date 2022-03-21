@@ -1,0 +1,205 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body    {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.15;
+    background-color: #E7E4EB;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+
+/* headerrrrrrrrrr */
+
+.header {
+    margin-top: 20px;
+    background-color: #f18121;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+.logo   {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    background-color: #ffffff;
+    padding: 0 20px;
+}
+.logo img{
+    width: 120px;
+}
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.menu-header > ul{
+    display: flex;
+    height: 60px;
+    align-items: center;
+
+}
+.menu-header > ul >li{
+    color: #ffffff;
+    padding: 0 16px;
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+.sub-menu-header {
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    width: 500px;
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 100%;
+    font-size: 14px;
+}
+
+.sub-menu-header li {
+    background-color: #ffffff;
+    color:black;
+    padding: 10px;
+    float: left;
+    line-height: 50px;
+    width: 100px;
+}
+.sub-menu-header li:hover{
+    color: #f18121;
+}
+.menu-header > ul >li:hover .sub-menu-header{
+    display: block;
+
+}
+.menu-header > ul >li:hover{
+    background-color: rgb(211, 167, 138);
+}
+
+.cat2   {
+    width: 700px;
+}
+span    {
+    padding: 0 5px;
+}
+
+/* bodyyyyyyyy */
+
+#alltruyen{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.dstruyen{
+    text-align: center;
+    margin: 30px 0px;
+    background-color: #f18121;
+}
+h1{
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+.trang1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 10px;
+
+}
+.trang1 li  {
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: list-item;
+    text-align: center;
+    list-style: none;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.info-truyen a  {
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.chuongtruyen a  {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+.rating i   {
+    color: #ffd600;
+    
+}
+.chuongtruyen    {
+    text-align: center;
+    padding: 5px;
+}
+.rating {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-truyen    {
+    text-align: center;
+    padding: 10px;
+}
+.loaitruyen {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.anhtruyen  {
+    display: flex;
+    justify-content: center;
+}
+
+/* <!-- FOOTERRRRRR --> */
+
+#footer {
+    padding: 30px 100px;
+    background-color: #ffffff;
+    border-top: 5px solid #f18121;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 2;
+}
+
+.cot1f{
+
+    padding: 0 10px;
+}
+.cot2f{
+    padding: 0 10px;
+    max-width: 50%;
+}

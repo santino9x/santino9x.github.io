@@ -1,0 +1,51 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+.meno   {
+    width: 1200px;
+    height: 600px;
+    background-color: black;
+    position: static;
+    z-index: 5;
+
+
+
+}
+.box    {
+    width: 1000px;
+    height: 500px;
+    background-color: blue;
+    position: static;
+    z-index: 4;
+
+
+
+}
+.box1   {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    position: static;
+    z-index: 3;
+
+}
+button  {
+    position: fixed;
+    z-index: 2;
+    right: 50px;
+    bottom: 50px ;
+    padding: 20px 20px;
+    background-color: brown;
+}
+.sticky {
+    height: 50px;
+    background-color: bisque;
+    position: sticky;
+    z-index: 1;
+    top: 20px;
+}

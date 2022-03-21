@@ -1,0 +1,126 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+}
+.header {
+    height: 60px;
+    background-color: #34465c;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 0 20px;
+}
+.logo  img {
+    width: 120px;
+}
+.logo   {
+    display: flex;
+    align-items: center;
+}
+.avatar img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.side-bar   {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.menu > ul  {
+    display: flex;
+    padding: 0 40px;
+}
+.menu > ul > li{
+    color: aliceblue;
+    height: 60px;
+    position: relative;
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.menu > ul > li:hover .sub-menu {
+    display: block;
+
+}
+.menu > ul > li:hover{
+    color: #c4c4c4;
+}
+.sub-menu   {
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    width: 200px;
+    position: absolute;
+    color: #343a40;
+    right: 0;
+    top: 100%;
+    display: none;
+    text-transform: none;
+}
+.sub-menu li    {
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+.sub-menu li:hover  {
+    background-color: #c4c4c4;
+    color: #fff !important;
+}
+i  {
+    margin-left: 5px;
+}
+
+.card i{
+    color: #fff;
+}
+span:hover {
+    color: #c4c4c4;
+}
+.menu2  {
+
+}
+.inmenu2    {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+
+}
+.card{
+
+}
+.cart-icon  {
+    position: relative;
+    z-index: 1;
+    font-size: 23px;
+}
+.cart-count{
+    padding: 2px 4px;
+    background-color: #26a69a;
+    border-radius: 25%;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 50px;
+}
+.avatar {
+    margin-left: 25px;
+}
